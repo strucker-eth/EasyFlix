@@ -116,14 +116,19 @@ export const Cart = () => {
 		<p className="text-sm mb-5 text-gray-700">Not including taxes and shipping costs</p>
 	</div>
 	<div className="flex justify-end py-2 space-x-8">
+	<a href="/Movies">
 		<button type="button" className="px-6 py-2 border rounded-md border-deep-purple-600 ">
 			<span>Add </span> 
 			<span className="sr-only sm:not-sr-only">
 				Movies</span>
 		</button>
-		<button type="button" className="px-6 py-2 border rounded-md bg-deep-purple-500 text-white dark:border-sky-400">
-			<span className="sr-only space-y-8 space-x-4 sm:not-sr-only">Continue to</span> <span></span>Checkout
-		</button>
+		</a>
+		<a href="/Checkout">
+  <button type="button" className="px-6 py-2 border rounded-md bg-deep-purple-500 text-white dark:border-sky-400">
+    <span className="sr-only space-y-8 space-x-4 sm:not-sr-only">Continue to</span> <span></span>Checkout
+  </button>
+</a>
+
 	</div>
 </div>
     )

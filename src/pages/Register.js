@@ -11,8 +11,7 @@ import { Cart } from "@/components/Cart"
 import { Heading } from "@/components/Headings"
 import dynamic from "next/dynamic";
 import React from "react";
-import { Checkout } from "@/components/Checkout"
-
+import { Register } from "@/components/Sign-up"
 function Home() {
   return (
    
@@ -21,10 +20,10 @@ function Home() {
 <div id="Navbar">
 <Nav />
 </div>
-
-<div id="checkout" class="mb-40">
-    <Checkout />
-</div>
+ 
+ <div id="sign-up sapce-y-20 mb-20">
+  <Register />
+ </div>
  
  <div id="footer">
  <Footer />
