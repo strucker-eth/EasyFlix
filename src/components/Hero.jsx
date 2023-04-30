@@ -1,41 +1,52 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Landing = () => {
   return (
-    <div class="flex min-h-screen w-screen flex-col ">
- 
-
-  <div class="sm:my-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
-    <div class="flex flex-col items-center justify-between lg:flex-row">
-      <div class="mb-10 lg:mb-0 lg:max-w-lg lg:pr-5">
-        <div class="mb-6 max-w-xl">
-          <div>
-            <p class="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 text-xs font-semibold uppercase tracking-wider">New and improved</p>
-          </div>
-          <h2 class="mb-6 max-w-lg font-sans text-3xl font-bold leading-snug tracking-tight  sm:text-5xl sm:leading-snug">
-            Streaming platform for
-            <span class="my-1 inline-block rounde px-2 text-violet-600">fitness</span>
-            instructors
-          </h2>
-          <p class="text-base text-gray">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque it.</p>
-        </div>
-        <div class="flex flex-col items-center md:flex-row">
-          <a href="/" class="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-violet-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 hover:bg-violet-800 focus:outline-none md:mr-4 md:mb-0 md:w-auto">Stream Now </a>
-          <a href="/" aria-label="" class="inline-flex items-center font-semibold text-gray-50 underline-offset-2 transition-colors duration-200 hover:underline">Watch how it works</a>
-        </div>
+    <div class="flex w-screen flex-wrap text-slate-800">
+    <div class="flex w-full flex-col md:w-1/2">
+      <div class="flex justify-center pt-12 md:justify-start md:pl-12">
+        <a href="#" class="text-2xl font-bold text-blue-600"> Wobble . </a>
       </div>
-      <div class="relative shadow-xl shadow-violet-700 lg:w-1/2">
-        <image class="h-56 w-full rounded object-cover shadow-lg sm:h-96" src="/images/kIaysJ28maHz8lbmq_KsQ.png" alt="" />
-        <a href="/" aria-label="Play Video" class="group absolute inset-0 flex h-full w-full items-center justify-center bg-gray-900 bg-opacity-30 transition-colors duration-300 hover:bg-opacity-10">
-          <div class="flex h-16 w-16 transform items-center justify-center rounded-full bg-gray-100 shadow-2xl transition duration-300 group-hover:scale-110">
-            <svg class="w-10 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z"></path>
-            </svg>
+      <div class="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
+        <p class="text-center text-3xl font-bold md:leading-tight md:text-left md:text-5xl">
+          Welcome back <br />
+          to <span class="text-blue-600">Wobble</span>
+        </p>
+        <p class="mt-6 text-center font-medium md:text-left">Sign in to your account below.</p>
+  
+        <form class="flex flex-col items-stretch pt-3 md:pt-8">
+          <div class="flex flex-col pt-4">
+            <div class="relative flex overflow-hidden rounded-md border-2 transition focus-within:border-blue-600">
+              <input type="email" id="login-email" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Email" />
+            </div>
           </div>
-        </a>
+          <div class="mb-4 flex flex-col pt-4">
+            <div class="relative flex overflow-hidden rounded-md border-2 transition focus-within:border-blue-600">
+              <input type="password" id="login-password" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Password" />
+            </div>
+          </div>
+          <a href="#" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</a>
+          <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
+        </form>
+        <div class="py-12 text-center">
+          <p class="text-gray-600">
+            Don't have an account?
+            <a href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</a>
+          </p>
+        </div>
       </div>
     </div>
+    <div class="relative hidden h-screen select-none bg-blue-600 bg-gradient-to-br md:block md:w-1/2">
+      <div class="py-16 px-8 text-white xl:w-[40rem]">
+        <span class="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
+        <p class="my-6 text-3xl font-semibold leading-10">Create animations with <span class="abg-white whitespace-nowrap py-2 text-cyan-300">drag and drop</span>.</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
+        <a href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
+      </div>
+      <img class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" />
+    </div>
   </div>
-</div>
-);
+  
+)
 };
