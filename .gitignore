@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+.gitignore
+pnpm-lock.yaml
 # testing
 /coverage
 
