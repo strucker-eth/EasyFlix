@@ -10,39 +10,71 @@ import { CTA } from "@/components/CTA"
 import { Cart } from "@/components/Cart"
 import { Heading } from "@/components/Headings"
 import dynamic from "next/dynamic";
+import React from "react";
 
 function Home() {
   return (
    
     <main  class="font-mono font-bold">
 
-     <Nav />
-
-     <Landing />
-
-    <Features />    
-
-    <Heading />
-<div id="movies" class="grid grid-cols-3">
-  <Peek> </Peek>
-  <Peek> </Peek>
-  <Peek> </Peek>
-  <Peek> </Peek>
-  <Peek> </Peek>
-  <Peek> </Peek>
-     
+<div id="Navbar">
+<Nav />
 </div>
+
+<div id="Hero">
+  <Landing />
+</div>
+
+<div id= "features">
+  <Features /> 
+</div>
+
+<div id= "heading">
+  <Heading /> </div>
+
+  <div id="movie-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+  <Peek />
+  <Peek />
+  <Peek />
+  <Peek />
+  <Peek />
+  <Peek />
+</div>
+
+<div id="steps">
+<Steps /> 
+    </div>
+
+<div id="pricing">
+<Pricing />
+</div>
+
+ <div id="stats">
+ <Stats />
+ </div>
+
+ <div id="CTA">
+ <CTA />
+ </div>
+ 
+ <div id="footer">
+ <Footer />
+ </div>
+    
+
    
 
-    <Steps /> 
-    
-    <Pricing />
 
-    <Stats />
+   
 
-    <CTA />
+   
+ 
 
-    <Footer />
+
+
+
+
+  
       
      
       

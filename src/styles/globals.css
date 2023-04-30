@@ -30,5 +30,12 @@ rgb(var(--background-end-rgb))
 )
 rgb(var(--background-start-rgb));
 font-family: var(--font-family); /* Added font family */
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
+
+
+  
