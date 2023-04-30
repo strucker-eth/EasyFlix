@@ -11,7 +11,7 @@ import { Cart } from "@/components/Cart"
 import { Heading } from "@/components/Headings"
 import dynamic from "next/dynamic";
 import React from "react";
-import { Register } from "@/components/Sign-up"
+import { Login } from "@/components/Login"
 
 function Home() {
   return (
@@ -21,12 +21,9 @@ function Home() {
 <div id="Navbar">
 <Nav />
 </div>
- 
- <div id="sign-up sapce-y-20 mb-20">
-  <Register />
- </div>
- 
+<Login />
 
+ 
  <div id="footer">
  <Footer />
  </div>
