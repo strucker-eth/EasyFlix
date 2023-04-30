@@ -1,7 +1,8 @@
+import Link from 'next/link';
 export const Nav = () => {
       
     return (
-      <header class="shadow mb-2">
+      <header class="shadow min-w-full mb-2">
       <div class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
         <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
           <span class="mr-2 text-4xl text-blue-600">
@@ -17,16 +18,21 @@ export const Nav = () => {
           </svg>
         </label>
         <nav aria-label="Header Navigation" class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
-          <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
-            <li class="text-gray-600 md:mr-12 hover:text-blue-600"><a href="#">Pricing</a></li>
-            <li class="text-gray-600 md:mr-12 hover:text-blue-600"><a href="#">Features</a></li>
-            <li class="text-gray-600 md:mr-12 hover:text-blue-600"><a href="#">Support</a></li>
-            <li class="text-gray-600 md:mr-12 hover:text-blue-600">
-              <button class="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white">Login</button>
-            </li>
-          </ul>
+     
+<ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+  <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/pricing">Pricing</Link></li>
+  <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/Cart">Cart</Link></li>
+  <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/Checkout">Checkout</Link></li>
+  <li className="text-gray-600 md:mr-12 hover:text-blue-600">
+    <button className="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white">Login</button>
+  </li>
+  <li className="text-gray-600 md:mr-12 hover:text-blue-600">
+    <button className="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"><Link href="/signup">Sign up</Link></button>
+  </li>
+</ul>
+
         </nav>
       </div>
     </header>
-    );
+    )
   };
