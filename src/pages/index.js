@@ -8,8 +8,10 @@ import { Steps } from "@/components/Steps"
 import { Footer } from "@/components/footer"
 import { CTA } from "@/components/CTA"
 import { Cart } from "@/components/Cart"
+import { Heading } from "@/components/Headings"
+import dynamic from "next/dynamic";
 
-export default function Home() {
+function Home() {
   return (
    
     <main  class="font-mono font-bold">
@@ -20,7 +22,17 @@ export default function Home() {
 
     <Features />    
 
-    <Peek /> 
+    <Heading />
+<div id="movies" class="grid grid-cols-3">
+  <Peek> </Peek>
+  <Peek> </Peek>
+  <Peek> </Peek>
+  <Peek> </Peek>
+  <Peek> </Peek>
+  <Peek> </Peek>
+     
+</div>
+   
 
     <Steps /> 
     
@@ -56,3 +68,5 @@ export default function Home() {
         </main>
   )
 }
+
+export default dynamic (() => Promise.resolve(Home), {ssr: false})

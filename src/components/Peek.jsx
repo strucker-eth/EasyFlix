@@ -1,243 +1,52 @@
+import Link from "next/link";
+
 export const Peek = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
-            </p>
-          </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block">
-              <svg
-                viewBox="0 0 52 24"
-                fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-              >
-                <defs>
-                  <pattern
-                    id="7b568941-9ed0-4f49-85a0-5e21ca6c7ad6"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7" />
-                  </pattern>
-                </defs>
-                <rect
-                  fill="url(#7b568941-9ed0-4f49-85a0-5e21ca6c7ad6)"
-                  width="52"
-                  height="24"
-                />
-              </svg>
-              <span className="relative">The</span>
-            </span>{' '}
-            quick, brown fox jumps over a lazy dog
-          </h2>
-          <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
-          </p>
-        </div>
-        <div className="grid gap-5 row-gap-5 mb-8 lg:grid-cols-4 sm:grid-cols-2">
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    The doctor said
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Sportacus andrew weatherall goose Refined gentlemen super
-                    mario des lynam alpha trion zap rowsdower.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    Skate ipsum dolor
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">They urge you</h6>
-                  <p className="text-sm text-gray-900">
-                    A flower in my garden, a mystery in my panties. Heart attack
-                    never stopped old Big Bear.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    Baseball ipsum dolor
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Bro ipsum dolor sit amet gaper backside single track, manny
-                    Bike epic clipless. Schraeder drop gondy.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    The doctor said
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Sportacus andrew weatherall goose Refined gentlemen super
-                    mario des lynam alpha trion zap rowsdower.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    Skate ipsum dolor
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">They urge you</h6>
-                  <p className="text-sm text-gray-900">
-                    A flower in my garden, a mystery in my panties. Heart attack
-                    never stopped old Big Bear.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href="/"
-            aria-label="View Item"
-            className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
-          >
-            <div className="flex flex-col h-full">
-              <img
-                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                className="object-cover w-full h-48"
-                alt=""
-              />
-              <div className="flex-grow border border-t-0 rounded-b">
-                <div className="p-5">
-                  <h6 className="mb-2 font-semibold leading-5">
-                    Baseball ipsum dolor
-                  </h6>
-                  <p className="text-sm text-gray-900">
-                    Bro ipsum dolor sit amet gaper backside single track, manny
-                    Bike epic clipless. Schraeder drop gondy.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="text-center">
-          <a
-            href="/"
-            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-          >
-            Learn more
-          </a>
-        </div>
+      <div className="px-3 py-16 mx-auto sm:max-w-xl gap- md:max-w-full lg:max-w-screen-xl">
+
+        <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+  <a class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
+    <img class="object-cover" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="product image" />
+    <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
+  </a>
+  <div class="mt-4 px-5 pb-5">
+    <a href="#">
+      <h5 class="text-xl tracking-tight text-slate-900">Nike Air MX Super 2500 - Red</h5>
+    </a>
+    <div class="mt-2 mb-5 flex items-center justify-between">
+      <p>
+        <span class="text-3xl font-bold text-slate-900">$449</span>
+        <span class="text-sm text-slate-900 line-through">$699</span>
+      </p>
+      <div class="flex items-center">
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <span class="mr-2 ml-3 rounded bg-yellow-200 px-2.5 py-0.5 text-xs font-semibold">5.0</span>
       </div>
-    );
+    </div>
+    <a href="#" class="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+      Add to cart</a
+    >
+  </div>
+</div>
+
+       
+      </div>
+    )
   };
