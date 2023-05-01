@@ -27,7 +27,7 @@ export const Register = () => {
   </div>
   <div class="px-4 py-20">
     <h2 class="mb-2 text-3xl font-bold">Sign Up</h2>
-    <Link href="#" class="mb-10 block font-bold text-gray-600">Have an account</Link>
+    <Link href="Login" class="mb-10 block font-bold text-gray-600">Have an account</Link>
     <p class="mb-1 font-medium text-gray-500">Looking for?</p>
     <div class="mb-6 flex flex-col gap-y-2 gap-x-4 lg:flex-row">
       <div class="relative flex w-56 items-center justify-center rounded-xl bg-gray-50 px-4 py-3 font-medium text-gray-700">

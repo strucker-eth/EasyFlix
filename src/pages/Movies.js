@@ -11,6 +11,7 @@ import { Cart } from "@/components/Cart"
 import { Heading } from "@/components/Headings"
 import dynamic from "next/dynamic";
 import React from "react";
+import { Movie } from "@/components/Movies"
 
 function Home() {
   return (
@@ -21,43 +22,8 @@ function Home() {
 <Nav />
 </div>
 
-<div id="Hero">
-  <Landing />
-</div>
+<Movie /> 
 
-<div id= "features">
-  <Features /> 
-</div>
-
-<div id= "heading">
-  <Heading /> </div>
-
-  <div id="movie-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-  <Peek />
-  <Peek />
-  <Peek />
-  <Peek />
-  <Peek />
-  <Peek />
-</div>
-
-<div id="steps">
-<Steps /> 
-    </div>
-
-<div id="pricing">
-<Pricing />
-</div>
-
- <div id="stats">
- <Stats />
- </div>
-
- <div id="CTA">
- <CTA />
- </div>
- 
- 
  <Footer />
 
     

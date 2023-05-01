@@ -66,7 +66,7 @@ export const Steps = () => {
               on account heave down clap
             </p>
             <Link
-              href="/"
+              href="Movies"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -119,7 +119,7 @@ export const Steps = () => {
               22 years the only &apos;winners&apos;
             </p>
             <Link
-              href="/"
+              href="/Movies"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -172,7 +172,7 @@ export const Steps = () => {
               looks thin. Hello, little man
             </p>
             <Link
-              href="/"
+              href="/Index"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
