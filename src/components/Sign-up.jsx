@@ -3,62 +3,51 @@ import Link from "next/link"
 
 export const Register = () => {
     return(
-<div class="mx-auto flex h-screen mb-40 max-w-lg flex-col md:max-w-none md:flex-row md:pr-10">
-  <div class="max-w-md rounded-3xl bg-gradient-to-t from-blue-700 via-blue-700 to-blue-600 px-4 py-10 text-white sm:px-10 md:m-6 md:mr-8">
-    <p class="mb-20 font-bold tracking-wider">CORINE</p>
-    <p class="mb-4 text-3xl font-bold md:text-4xl md:leading-snug">
-      Start your <br />
-      journey with us
-    </p>
-    <p class="mb-28 leading-relaxed text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi voluptas a officia. Omnis.</p>
-    <div class="bg-blue-600/80 rounded-2xl px-4 py-8">
-      <p class="mb-3 text-gray-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea voluptates sapiente!</p>
-      <div class="">
-        <div class="flex items-center">
-          <Image class="h-10 w-10 rounded-full object-cover" width={20}
-  height={20} src="" alt="Simon Lewis"></Image>
-          <p class="ml-4 w-56">
-            <strong class="block font-medium">Simon Lewis</strong>
-            <span class="text-xs text-gray-200"> Published 12 Bestsellers </span>
+      <div class="flex w-screen flex-wrap mb-20 text-slate-800">
+      <div class="flex w-full flex-col md:w-1/2">
+       
+        <div class="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
+          <p class="text-center text-3xl font-bold md:leading-tight md:text-left md:text-5xl">
+            Welcome to <br />
+            to <span class="text-blue-600">EasyFlix</span>
           </p>
+          <p class="mt-6 text-cFnter font-medium md:text-left">Sign up for your account below.</p>
+    
+          <form class="flex flex-col items-stretch pt-3 md:pt-8">
+            <div class="flex flex-col pt-4">
+              <div class="relative flex overflow-hidden rounded-md border-2 transition focus-within:border-blue-600">
+                <input type="email" id="login-email" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Email" />
+              </div>
+            </div>
+            <div class="mb-4 flex flex-col pt-4">
+              <div class="relative flex overflow-hidden rounded-md border-2 transition focus-within:border-blue-600">
+                <input type="password" id="login-password" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Password" />
+              </div>
+            </div>
+<Link href="/">
+            <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign up</button>
+            </Link>
+          </form>
+          <div class="py-12 text-center">
+            <p class="text-gray-600">
+              Already have an account? <span>
+              <Link href="/Login" class="whitespace-nowrap font-extrabold text-gray-900">Sign in.</Link>
+            </span>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="px-4 py-20">
-    <h2 class="mb-2 text-3xl font-bold">Sign Up</h2>
-    <Link href="Login" class="mb-10 block font-bold text-gray-600">Have an account</Link>
-    <p class="mb-1 font-medium text-gray-500">Looking for?</p>
-    <div class="mb-6 flex flex-col gap-y-2 gap-x-4 lg:flex-row">
-      <div class="relative flex w-56 items-center justify-center rounded-xl bg-gray-50 px-4 py-3 font-medium text-gray-700">
-        <input class="peer hidden" type="radio" name="radio" id="radio1" checked />
-        <label class="peer-checked:border-blue-600 peer-checked:bg-blue-200 absolute top-0 h-full w-full cursor-pointer rounded-xl border" for="radio1"> </label>
-        <div class="peer-checked:border-transparent peer-checked:bg-blue-600 peer-checked:ring-2 absolute left-4 h-5 w-5 rounded-full border-2 border-gray-300 bg-gray-200 ring-blue-600 ring-offset-2"></div>
-        <span class="pointer-events-none z-10">Projects</span>
-      </div>
-      <div class="relative flex w-56 items-center justify-center rounded-xl bg-gray-50 px-4 py-3 font-medium text-gray-700">
-        <input class="peer hidden" type="radio" name="radio" id="radio3" checked />
-        <label class="peer-checked:border-blue-600 peer-checked:bg-blue-200 absolute top-0 h-full w-full cursor-pointer rounded-xl border" for="radio3"> </label>
-        <div class="peer-checked:border-transparent peer-checked:bg-blue-600 peer-checked:ring-2 absolute left-4 h-5 w-5 rounded-full border-2 border-gray-300 bg-gray-200 ring-blue-600 ring-offset-2"></div>
-        <span class="pointer-events-none z-10">Job</span>
+      <div class="relative hidden h-screen select-none bg-blue-600 bg-gradient-to-br md:block md:w-1/2">
+        <div class="py-16 px-8 text-white xl:w-[40rem]">
+          <span class="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
+          <p class="my-6 text-3xl font-semibold leading-10">Create animations with <span class="abg-white whitespace-nowrap py-2 text-cyan-300">drag and drop</span>.</p>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
+          <Link href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</Link>
+        </div>
+       
       </div>
     </div>
-    <p class="mb-1 font-medium text-gray-500">Email</p>
-    <div class="mb-4 flex flex-col">
-      <div class="focus-within:border-blue-600 relativeflex overflow-hidden rounded-md border-2 transition sm:w-80 lg:w-full">
-        <input type="email" id="signup-email" class="w-full border-gray-300 bg-white px-4 py-2 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Enter your email" />
-      </div>
-    </div>
-    <p class="mb-1 font-medium text-gray-500">Password</p>
-    <div class="mb-4 flex flex-col">
-      <div class="focus-within:border-blue-600 relative flex overflow-hidden rounded-md border-2 transition sm:w-80 lg:w-full">
-        <input type="password" id="signup-password" class="w-full border-gray-300 bg-white px-4 py-2 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Choose a password (minimum 8 characters)" />
-      </div>
-    </div>
-    <button class="hover:shadow-blue-600/40 rounded-xl bg-gradient-to-r from-blue-700 to-blue-600 px-8 py-3 font-bold text-white transition-all hover:opacity-90 hover:shadow-lg">Sign Up</button>
-  </div>
-</div>
-
+    
 
     )
 }

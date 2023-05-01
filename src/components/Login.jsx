@@ -6,13 +6,11 @@ export const Login = () => {
     return(
         <div class="flex w-screen flex-wrap mb-20 text-slate-800">
   <div class="flex w-full flex-col md:w-1/2">
-    <div class="flex justify-center pt-12 md:justify-start md:pl-12">
-      <Link href="#" class="text-2xl font-bold text-blue-600"> Wobble . </Link>
-    </div>
+   
     <div class="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
       <p class="text-center text-3xl font-bold md:leading-tight md:text-left md:text-5xl">
         Welcome back <br />
-        to <span class="text-blue-600">Wobble</span>
+        to <span class="text-blue-600">EasyFlix</span>
       </p>
       <p class="mt-6 text-cFnter font-medium md:text-left">Sign in to your account below.</p>
 
@@ -27,14 +25,18 @@ export const Login = () => {
             <input type="password" id="login-password" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Password" />
           </div>
         </div>
-        <Link href="#" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</Link>
-        <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
+        <Link href="/Movies" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</Link>
+        <Link href="/Movies" >     <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
+        </Link>   
       </form>
       <div class="py-12 text-center">
         <p class="text-gray-600">
           Don&apos;t have an account?
-          <Link href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</Link>
-        </p>
+          </p>
+        
+        <Link href="/Register" class="whitespace-nowrap font-extrabold text-gray-900 ">Sign up for free.</Link>
+    
+      
       </div>
     </div>
   </div>
@@ -45,8 +47,7 @@ export const Login = () => {
       <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
       <Link href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</Link>
     </div>
-    <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="" width={20}
-  height={20} alt=""></Image>
+   
   </div>
 </div>
 
