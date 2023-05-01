@@ -116,7 +116,7 @@ export const Steps = () => {
             <h6 className="mb-2 text-2xl font-extrabold">Step 2</h6>
             <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
               They urge you to put down your sword and come join the winners. In
-              22 years the only 'winners'
+              22 years the only &apos;winners&apos;
             </p>
             <Link
               href="/"

@@ -72,7 +72,7 @@ export const Stats = () => {
             <h6 className="text-4xl font-bold text-deep-purple-accent-400">91</h6>
             <p className="mb-2 font-bold text-md">Subscribers</p>
             <p className="text-gray-700">
-              It's a helluva start, being able to recognize what makes you happy
+              It&apos;s a helluva start, being able to recognize what makes you happy
               today, in this moment.
             </p>
           </div>

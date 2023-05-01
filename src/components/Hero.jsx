@@ -31,8 +31,8 @@ export const Landing = () => {
         </form>
         <div class="py-12 text-center">
           <p class="text-gray-600">
-            Don't have an account?
-            <a href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</a>
+            Don&apos;t have an account?
+            <Link href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</Link>
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export const Landing = () => {
         <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
         <a href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
       </div>
-      <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" ></Image>
+      <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" alt=""></Image>
     </div>
   </div>
   
