@@ -167,7 +167,7 @@ export const Checkout = () => {
         <p className="text-2xl font-semibold text-gray-900">$408.00</p>
       </div>
     </div>
-    <Link href="/Index">
+    <Link href="/">
     <button className="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Place Order</button>
     </Link>
   </div>
