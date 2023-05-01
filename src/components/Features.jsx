@@ -2,38 +2,107 @@ import Image from "next/image";
 
 export const Features = () => {
     return (
-      <div class="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
-      <div class="max-w-md pr-20 lg:pt-28">
-        <Image width={20}
-  height={20} src="" class="w-inherit" alt="" ></Image>
-      </div>
-      <div class="">
-        <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
-          </svg>
+     
+<div class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
+    <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4  dark:text-white dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
         </div>
-        <h2 class="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">A <span class="text-indigo-600">revolutionary</span> way to build websites</h2>
-        <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2">
-          <div>
-            <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Launch Websites in minutes</p>
-            <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
-          </div>
-          <div>
-            <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Never miss deadlines</p>
-            <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
-          </div>
-          <div>
-            <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Super Intuitive</p>
-            <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
-          </div>
-          <div>
-            <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Speedy Websites</p>
-            <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
-          </div>
-        </div>
-      </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            Website Design
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Encompassing today’s website design technology to integrated and build solutions relevant to your business.
+        </p>
     </div>
-    
+    <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg  dark:text-white shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            Branding
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+        </p>
+    </div>
+    <div class="w-full px-4 py-4 mt-6 bg-white  dark:text-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            SEO Marketing
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+        </p>
+    </div>
+    <div class="w-full px-4 py-4 mt-6 bg-white  dark:text-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            SEO Marketing
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+        </p>
+    </div>
+    <div class="w-full px-4 py-4 mt-6 bg-white  dark:text-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            SEO Marketing
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+        </p>
+    </div>
+
+    <div class="w-full px-4 py-4 mt-6 bg-white  dark:text-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="flex-shrink-0">
+            <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
+                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+            SEO Marketing
+        </h3>
+        <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+        </p>
+    </div>
+</div>
+
+
     );
   };
