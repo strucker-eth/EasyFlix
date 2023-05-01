@@ -45,7 +45,8 @@ export const Login = () => {
       <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
       <Link href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</Link>
     </div>
-    <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" alt=""></Image>
+    <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="" width={20}
+  height={20} alt=""></Image>
   </div>
 </div>
 

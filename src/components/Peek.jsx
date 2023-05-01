@@ -7,7 +7,8 @@ export const Peek = () => {
 
         <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
   <Link class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
-    <Image class="object-cover" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="product image" />
+    <Image class="object-cover w-full" src="" width={20}
+  height={20} alt="product image" />
     <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
   </Link>
   <div class="mt-4 px-5 pb-5">

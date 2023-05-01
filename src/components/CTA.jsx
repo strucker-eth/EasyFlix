@@ -5,8 +5,9 @@ export const CTA = () => {
     return (
       <div className="relative">
         <Image
-          src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-          className="absolute inset-0 object-cover w-full h-full"
+          src=""
+          className="absolute inset-0 object-cover width={20}
+          height={20}"
           alt=""></Image>
       
         <div className="relative bg-gray-900 bg-opacity-75">

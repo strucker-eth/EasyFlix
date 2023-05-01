@@ -15,7 +15,8 @@ export const Register = () => {
       <p class="mb-3 text-gray-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea voluptates sapiente!</p>
       <div class="">
         <div class="flex items-center">
-          <Image class="h-10 w-10 rounded-full object-cover" src="/images/y9s3xOJV6rnQPKIrdPYJy.png" alt="Simon Lewis"></Image>
+          <Image class="h-10 w-10 rounded-full object-cover" width={20}
+  height={20} src="" alt="Simon Lewis"></Image>
           <p class="ml-4 w-56">
             <strong class="block font-medium">Simon Lewis</strong>
             <span class="text-xs text-gray-200"> Published 12 Bestsellers </span>
