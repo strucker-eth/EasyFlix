@@ -8,8 +8,8 @@ export const Cart = () => {
 	<ul className="flex flex-col divide-y divide-gray-700">
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-				<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"  width={20}
-  height={20} src=""   alt="Polaroid camera"></Image>
+				<Image className="flex-shrink-0 object-cover w-30 h-30 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"  width={300}
+  height={300} src="/img/Galaxy.jpg"   alt="Polaroid camera" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
@@ -44,8 +44,8 @@ export const Cart = () => {
 		</li>
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-				<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="" width={20}
-  height={20} alt="Replica headphones" ></Image>
+				<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="/img/Lantern.jpg" width={300}
+  height={300} alt="Replica headphones" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
@@ -80,8 +80,8 @@ export const Cart = () => {
 		</li>
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-			<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="" width={20}
-  height={20} alt="Replica headphones" ></Image>
+			<Image className="flex-shrink-0 object-cover w-full h-40 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="/img/WestWorld.jpg" width={300}
+  height={300} alt="Replica headphones" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">

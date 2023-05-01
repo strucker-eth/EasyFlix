@@ -41,7 +41,7 @@ export const Checkout = () => {
     <p className="text-gray-400">Check your items. And select a suitable shipping method.</p>
     <div className="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
-        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Avatar.jpg" alt="" width={300}
+        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Galaxy.jpg" alt="" width={300}
               height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
           <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
@@ -50,13 +50,26 @@ export const Checkout = () => {
         </div>
       </div>
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
-        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Prey.jpg" alt="" width={300}
+        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/WestWorld.jpg" alt="" width={300}
               height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
           <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
           <span className="float-right text-gray-400">42EU - 8.5US</span>
           <p className="mt-auto text-lg font-bold">$238.99</p>
         </div>
+     
+     
+      </div>
+      <div className="flex flex-col rounded-lg bg-white sm:flex-row">
+        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Lantern.jpg" alt="" width={300}
+              height={300} ></Image>
+        <div className="flex w-full flex-col px-4 py-4">
+          <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
+          <span className="float-right text-gray-400">42EU - 8.5US</span>
+          <p className="mt-auto text-lg font-bold">$238.99</p>
+        </div>
+     
+     
       </div>
     </div>
 
