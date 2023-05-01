@@ -41,7 +41,8 @@ export const Checkout = () => {
     <p className="text-gray-400">Check your items. And select a suitable shipping method.</p>
     <div className="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
-        <Image className="m-2 h-24 w-28 rounded-md border object-cover object-center" src="" alt="" ></Image>
+        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Avatar.jpg" alt="" width={300}
+              height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
           <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
           <span className="float-right text-gray-400">42EU - 8.5US</span>
@@ -49,7 +50,8 @@ export const Checkout = () => {
         </div>
       </div>
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
-        <Image className="m-2 h-24 w-28 rounded-md border object-cover object-center" src="" alt="" ></Image>
+        <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Prey.jpg" alt="" width={300}
+              height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
           <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
           <span className="float-right text-gray-400">42EU - 8.5US</span>
@@ -64,9 +66,10 @@ export const Checkout = () => {
         <input className="peer hidden" id="radio_1" type="radio" name="radio" checked />
         <span className="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"></span>
         <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_1">
-          <Image className="w-14 object-contain" src="" alt=""></Image>
+          <Image className="w-14 object-contain" src="/img/fedex.png" alt="" width={300}
+              height={300}></Image>
           <div className="ml-5">
-            <span className="mt-2 font-semibold">Fedex Delivery</span>
+            <span className="mt-2 font-semibold">Fedex </span>
             <p className="text-slate-500 text-sm leading-6">Delivery: 2-4 Days</p>
           </div>
         </label>
@@ -75,10 +78,11 @@ export const Checkout = () => {
         <input className="peer hidden" id="radio_2" type="radio" name="radio" checked />
         <span className="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"></span>
         <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_2">
-          <Image className="w-14 object-contain" src="" alt="" ></Image>
+          <Image className="w-14 object-contain" src="/img/Amazon.png" alt="" width={300}
+              height={300}></Image>
           <div className="ml-5">
-            <span className="mt-2 font-semibold">Fedex Delivery</span>
-            <p className="text-slate-500 text-sm leading-6">Delivery: 2-4 Days</p>
+            <span className="mt-2 font-semibold">Amazon</span>
+            <p className="text-slate-500 text-sm leading-6">Delivery: 1-2 Days</p>
           </div>
         </label>
       </div>

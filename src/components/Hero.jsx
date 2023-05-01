@@ -81,11 +81,11 @@ export const Landing = () => {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center -mx-4 lg:pl-8">
+        <div className="flex items-center justify-center h-auto -mx-14 lg:pl-8">
         <div className="px-3">
             <Image
-              className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-              src="/img/HQ.jpg"
+              className="object-cover w-60 h-60 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              src="/img/Warriors.jpg"
               alt="" width={300}
               height={300}
             ></Image>
