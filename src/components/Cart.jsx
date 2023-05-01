@@ -1,3 +1,6 @@
+import Image from "next/image"
+import Link from "next/link"
+
 export const Cart = () => {
     return(
     <div className="flex flex-col max-w-3xl mb-20 p-6 space-y-2 justify-between mx-auto sm:p-10">
@@ -5,7 +8,7 @@ export const Cart = () => {
 	<ul className="flex flex-col divide-y divide-gray-700">
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-				<img className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="Polaroid camera" />
+				<image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="Polaroid camera" />
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
@@ -40,7 +43,7 @@ export const Cart = () => {
 		</li>
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-				<img className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="Replica headphones" />
+				<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="Replica headphones" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
@@ -75,7 +78,7 @@ export const Cart = () => {
 		</li>
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
-			<img className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="Replica headphones" />
+			<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80" alt="Replica headphones" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
@@ -116,18 +119,18 @@ export const Cart = () => {
 		<p className="text-sm mb-5 text-gray-700">Not including taxes and shipping costs</p>
 	</div>
 	<div className="flex justify-end py-2 space-x-8">
-	<a href="/Movies">
+	<Link href="/Movies">
 		<button type="button" className="px-6 py-2 border rounded-md border-deep-purple-600 ">
 			<span>Add </span> 
 			<span className="sr-only sm:not-sr-only">
 				Movies</span>
 		</button>
-		</a>
-		<a href="/Checkout">
+		</Link>
+		<Link href="/Checkout">
   <button type="button" className="px-6 py-2 border rounded-md bg-deep-purple-500 text-white dark:border-sky-400">
     <span className="sr-only space-y-8 space-x-4 sm:not-sr-only">Continue to</span> <span></span>Checkout
   </button>
-</a>
+</Link>
 
 	</div>
 </div>

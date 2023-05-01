@@ -1,3 +1,6 @@
+import Image from "next/image"
+import Link from "next/link"
+
 export const Register = () => {
     return(
 <div class="mx-auto flex h-screen mb-40 max-w-lg flex-col md:max-w-none md:flex-row md:pr-10">
@@ -12,7 +15,7 @@ export const Register = () => {
       <p class="mb-3 text-gray-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea voluptates sapiente!</p>
       <div class="">
         <div class="flex items-center">
-          <img class="h-10 w-10 rounded-full object-cover" src="/images/y9s3xOJV6rnQPKIrdPYJy.png" alt="Simon Lewis" />
+          <Image class="h-10 w-10 rounded-full object-cover" src="/images/y9s3xOJV6rnQPKIrdPYJy.png" alt="Simon Lewis"></Image>
           <p class="ml-4 w-56">
             <strong class="block font-medium">Simon Lewis</strong>
             <span class="text-xs text-gray-200"> Published 12 Bestsellers </span>
@@ -23,7 +26,7 @@ export const Register = () => {
   </div>
   <div class="px-4 py-20">
     <h2 class="mb-2 text-3xl font-bold">Sign Up</h2>
-    <a href="#" class="mb-10 block font-bold text-gray-600">Have an account</a>
+    <Link href="#" class="mb-10 block font-bold text-gray-600">Have an account</Link>
     <p class="mb-1 font-medium text-gray-500">Looking for?</p>
     <div class="mb-6 flex flex-col gap-y-2 gap-x-4 lg:flex-row">
       <div class="relative flex w-56 items-center justify-center rounded-xl bg-gray-50 px-4 py-3 font-medium text-gray-700">

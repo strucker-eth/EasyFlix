@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 export const Steps = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -62,13 +65,13 @@ export const Steps = () => {
               Lookout flogging bilge rat main sheet bilge water nipper fluke to go
               on account heave down clap
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
             <div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
               <svg
                 className="w-8 text-gray-700 transform rotate-90 lg:rotate-0"
@@ -115,13 +118,13 @@ export const Steps = () => {
               They urge you to put down your sword and come join the winners. In
               22 years the only 'winners'
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
             <div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
               <svg
                 className="w-8 text-gray-700 transform rotate-90 lg:rotate-0"
@@ -168,13 +171,13 @@ export const Steps = () => {
               Tell them I hate them. Is the Space Pope reptilian!? Tell her she
               looks thin. Hello, little man
             </p>
-            <a
+            <Link
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
       </div>

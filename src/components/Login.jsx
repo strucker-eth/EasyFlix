@@ -1,16 +1,20 @@
+import Link from "next/link"
+import Image from "next/image"
+
+
 export const Login = () => {
     return(
         <div class="flex w-screen flex-wrap mb-20 text-slate-800">
   <div class="flex w-full flex-col md:w-1/2">
     <div class="flex justify-center pt-12 md:justify-start md:pl-12">
-      <a href="#" class="text-2xl font-bold text-blue-600"> Wobble . </a>
+      <Link href="#" class="text-2xl font-bold text-blue-600"> Wobble . </Link>
     </div>
     <div class="my-auto mx-auto flex flex-col justify-center px-6 pt-8 md:justify-start lg:w-[28rem]">
       <p class="text-center text-3xl font-bold md:leading-tight md:text-left md:text-5xl">
         Welcome back <br />
         to <span class="text-blue-600">Wobble</span>
       </p>
-      <p class="mt-6 text-center font-medium md:text-left">Sign in to your account below.</p>
+      <p class="mt-6 text-cFnter font-medium md:text-left">Sign in to your account below.</p>
 
       <form class="flex flex-col items-stretch pt-3 md:pt-8">
         <div class="flex flex-col pt-4">
@@ -23,13 +27,13 @@ export const Login = () => {
             <input type="password" id="login-password" class="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Password" />
           </div>
         </div>
-        <a href="#" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</a>
+        <Link href="#" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</Link>
         <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
       </form>
       <div class="py-12 text-center">
         <p class="text-gray-600">
           Don't have an account?
-          <a href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</a>
+          <Link href="#" class="whitespace-nowrap font-semibold text-gray-900 underline underline-offset-4">Sign up for free.</Link>
         </p>
       </div>
     </div>
@@ -39,9 +43,9 @@ export const Login = () => {
       <span class="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
       <p class="my-6 text-3xl font-semibold leading-10">Create animations with <span class="abg-white whitespace-nowrap py-2 text-cyan-300">drag and drop</span>.</p>
       <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
-      <a href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</a>
+      <Link href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</Link>
     </div>
-    <img class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png" />
+    <Image class="ml-8 w-11/12 max-w-lg rounded-lg object-cover" src="/images/aaFKzowNcgxqSdxMw11na.png"></Image>
   </div>
 </div>
 
