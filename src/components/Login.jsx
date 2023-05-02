@@ -27,7 +27,7 @@ export const Login = () => {
         </div>
         <Link href="/Movies" class="mb-6 text-center text-sm font-medium text-gray-600 md:text-left">Forgot password?</Link>
         <Link href="/Movies" >     <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md outline-none ring-blue-500 ring-offset-2 transition hover:bg-blue-700 focus:ring-2 md:w-32">Sign in</button>
-        </Link>   
+      </Link>   
       </form>
       <div class="py-12 text-center">
         <p class="text-gray-600">
@@ -43,9 +43,8 @@ export const Login = () => {
   <div class="relative hidden h-screen select-none bg-blue-600 bg-gradient-to-br md:block md:w-1/2">
     <div class="py-16 px-8 text-white xl:w-[40rem]">
       <span class="rounded-full bg-white px-3 py-1 font-medium text-blue-600">New Feature</span>
-      <p class="my-6 text-3xl font-semibold leading-10">Create animations with <span class="abg-white whitespace-nowrap py-2 text-cyan-300">drag and drop</span>.</p>
-      <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt necessitatibus nostrum repellendus ab totam.</p>
-      <Link href="#" class="font-semibold tracking-wide text-white underline underline-offset-4">Learn More</Link>
+      <p class="my-6 text-3xl font-semibold leading-10">Sign In to <span class="abg-white whitespace-nowrap py-2 text-cyan-300">Your account</span>.</p>
+      
     </div>
    
   </div>
