@@ -20,13 +20,10 @@ export const Stats = () => {
               </svg>
             </div>
             <h6 className="text-4xl font-bold text-deep-purple-accent-400">
-              819
+            10,000 
             </h6>
-            <p className="mb-2 font-bold text-md">Downloads</p>
-            <p className="text-gray-700">
-              It’s something that’s many of the wisest people in history have kept
-              in mind.
-            </p>
+            <p className="mb-2 font-bold text-md">Movies and Tv Shows</p>
+            
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-teal-accent-400 sm:w-12 sm:h-12">
@@ -45,13 +42,10 @@ export const Stats = () => {
               </svg>
             </div>
             <h6 className="text-4xl font-bold text-deep-purple-accent-400">
-              1.3K
+            98%
             </h6>
             <p className="mb-2 font-bold text-md">Users</p>
-            <p className="text-gray-700">
-              For many men, the acquisition of wealth does not end their troubles,
-              it only changes them.
-            </p>
+           
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-teal-accent-400 sm:w-12 sm:h-12">
@@ -69,12 +63,9 @@ export const Stats = () => {
                 />
               </svg>
             </div>
-            <h6 className="text-4xl font-bold text-deep-purple-accent-400">91</h6>
-            <p className="mb-2 font-bold text-md">Subscribers</p>
-            <p className="text-gray-700">
-              It&apos;s a helluva start, being able to recognize what makes you happy
-              today, in this moment.
-            </p>
+            <h6 className="text-4xl font-bold text-deep-purple-accent-400">24/7 </h6>
+            <p className="mb-2 font-bold text-md">Customer Suppport</p>
+            
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-teal-accent-400 sm:w-12 sm:h-12">
@@ -92,12 +83,9 @@ export const Stats = () => {
                 />
               </svg>
             </div>
-            <h6 className="text-4xl font-bold text-deep-purple-accent-400">52</h6>
-            <p className="mb-2 font-bold text-md">Products</p>
-            <p className="text-gray-700">
-              Happiness is when what you think, what you say, and what you do are
-              in harmony.
-            </p>
+            <h6 className="text-4xl font-bold text-deep-purple-accent-400">2 Days</h6>
+            <p className="mb-2 font-bold text-md">Shipping Time</p>
+           
           </div>
         </div>
       </div>
