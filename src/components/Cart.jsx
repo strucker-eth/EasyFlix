@@ -9,16 +9,16 @@ export const Cart = () => {
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
 				<Image className="flex-shrink-0 object-cover w-30 h-30 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"  width={300}
-  height={300} src="/img/Galaxy.jpg"   alt="Polaroid camera" ></Image>
+  height={300} src="/img/Galaxy.jpg"   alt="Guardians of the Galaxy " ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
-							<h3 className="text-lg font-semibold leading-snug sm:pr-8">Polaroid camera</h3>
-							<p className="text-sm dark:text-gray-400">Classic</p>
+							<h3 className="text-lg font-semibold leading-snug sm:pr-8">Guardians of the Galaxy</h3>
+							<p className="text-sm dark:text-gray-400">DVD</p>
 						</div>
 						<div className="text-right">
-							<p className="text-lg font-semibold">59.99€</p>
-							<p className="text-sm line-through dark:text-gray-600">75.50€</p>
+							<p className="text-lg font-semibold">9.99$</p>
+							<p className="text-sm line-through dark:text-gray-600">25.50$</p>
 						</div>
 					</div>
 					<div className="flex text-sm divide-x">
@@ -45,16 +45,16 @@ export const Cart = () => {
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
 				<Image className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="/img/Lantern.jpg" width={300}
-  height={300} alt="Replica headphones" ></Image>
+  height={300} alt="Green Lantern" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
-							<h3 className="text-lg font-semibold leading-snug sm:pr-8">Replica headphones</h3>
-							<p className="text-sm dark:text-gray-400">White</p>
+							<h3 className="text-lg font-semibold leading-snug sm:pr-8">Green Lantern</h3>
+							<p className="text-sm dark:text-gray-400">USB</p>
 						</div>
 						<div className="text-right">
-							<p className="text-lg font-semibold">99.95€</p>
-							<p className="text-sm line-through dark:text-gray-600">150€</p>
+							<p className="text-lg font-semibold">19.95$</p>
+							<p className="text-sm line-through dark:text-gray-600">29.99$</p>
 						</div>
 					</div>
 					<div className="flex text-sm divide-x">
@@ -81,16 +81,16 @@ export const Cart = () => {
 		<li className="flex flex-col py-6 sm:flex-row sm:justify-between">
 			<div className="flex w-full space-x-2 sm:space-x-4">
 			<Image className="flex-shrink-0 object-cover w-full h-40 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="/img/WestWorld.jpg" width={300}
-  height={300} alt="Replica headphones" ></Image>
+  height={300} alt="Green Lantern" ></Image>
 				<div className="flex flex-col justify-between w-full pb-4">
 					<div className="flex justify-between w-full pb-2 space-x-2">
 						<div className="space-y-1">
-							<h3 className="text-lg font-semibold leading-snug sm:pr-8">Set of travel chargers</h3>
-							<p className="text-sm dark:text-gray-400">Black</p>
+							<h3 className="text-lg font-semibold leading-snug sm:pr-8">West-World</h3>
+							<p className="text-sm dark:text-gray-400">Streaming</p>
 						</div>
 						<div className="text-right">
-							<p className="text-lg font-semibold">8.99€</p>
-							<p className="text-sm line-through dark:text-gray-600">15.99€</p>
+							<p className="text-lg font-semibold">8.99$</p>
+							<p className="text-sm line-through dark:text-gray-600">15.99$</p>
 						</div>
 					</div>
 					<div className="flex text-sm divide-x">
@@ -117,7 +117,7 @@ export const Cart = () => {
 	</ul>
 	<div className="space-y-5 text-right">
 		<p>Total amount:
-			<span className="font-semibold">357 €</span>
+			<span className="font-semibold">35.99 $</span>
 		</p>
 		<p className="text-sm mb-5 text-gray-700">Not including taxes and shipping costs</p>
 	</div>
