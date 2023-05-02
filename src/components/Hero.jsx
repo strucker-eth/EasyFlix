@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Landing = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto ml-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-blue-accent-400">
@@ -24,7 +24,7 @@ export const Landing = () => {
             </p>
           </div>
           <div>
-            <a
+            <Link
               href="/Movies"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
@@ -37,10 +37,10 @@ export const Landing = () => {
               >
                 <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
-        <div className="flex items-center justify-center h-auto -mx-14 lg:pl-8">
+        <div className="flex items-center ml-4 mr-4 justify-center h-auto -mx-14 lg:pl-8">
         <div className="px-3">
             <Image
               className="object-cover w-60 h-60 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"

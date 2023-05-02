@@ -5,7 +5,7 @@ export const Peek = () => {
     return (
       <div>
         
-      <div className="px-3 mx-2 sm:max-w-xl w-11/12  ">
+      <div className="px-3 -mx-2 sm:max-w-xl w-11/12  ">
 
         <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
   <Link class="relative  flex h-30 overflow-hidden rounded-xl" href="/Movies">

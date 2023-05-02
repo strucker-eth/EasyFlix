@@ -5,7 +5,7 @@ export const Features = () => {
     return (
     
 
- <div class="flex-wrap items-center justify-center sm:w-full gap-8 text-center sm:flex">
+ <div class="flex-wrap ml-9 items-center justify-center sm:w-full gap-8 text-center sm:flex">
     
            <div class="w-full px-4 py-4 mt-6 bg-white text-white rounded-lg shadow-lg sm:w-full md:w-1/2 lg:w-1/4  dark:text-white dark:bg-gray-800">
         <div class="flex-shrink-0">

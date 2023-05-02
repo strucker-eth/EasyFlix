@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const CTA = () => {
     return (
-      <div className="relative">
+      <div className=" ml-5 mx-auto relative sm:w-full w-full">
         <Image
           src=""
           className="absolute inset-0 object-cover width={20}
