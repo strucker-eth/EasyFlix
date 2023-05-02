@@ -26,11 +26,14 @@ export const Nav = () => {
        <li className="text-black-600 md:mr-12 hover:text-deep-purple-500"><Link href="/Cart">Cart</Link></li>
        <li className="text-black-600 md:mr-12 hover:text-deep-purple-500"><Link href="/Checkout">Checkout</Link></li>
        <li className="text-black-600 md:mr-12 hover:text-deep-purple-500">
-         <button className="rounded-md border-2 border-deep-purple-500 px-6 py-1 font-medium text-deep-purple-500 transition-colors hover:bg-deep-purple-500 hover:text-white"><Link href="/Login">Login</Link></button>
-       
+       <Link href="/Login">
+         <button className="rounded-md border-2 border-deep-purple-500 px-6 py-1 font-medium text-deep-purple-500 transition-colors hover:bg-deep-purple-500 hover:text-white">Login</button>
+         </Link>
        </li>
        <li className="text-black-600 md:mr-12 hover:text-deep-purple-500">
-         <button className="rounded-md border-2 border-deep-purple-500 bg-deep-purple-500 px-6 py-1 font-medium text-white transition-colors hover:bg-white hover:text-deep-purple-500"><Link href="/Register">Sign up</Link></button>
+       <Link href="/Register">
+         <button className="rounded-md border-2 border-deep-purple-500 bg-deep-purple-500 px-6 py-1 font-medium text-white transition-colors hover:bg-white hover:text-deep-purple-500">Sign up</button>
+         </Link>
        </li>
      </ul>
      
