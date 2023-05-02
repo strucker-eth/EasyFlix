@@ -40,10 +40,10 @@ export const Landing = () => {
             </Link>
           </div>
         </div>
-        <div className="flex items-center ml-4 mr-4 justify-center h-auto -mx-14 lg:pl-8">
+        <div className="flex items-center w-full ml-4 mr-4 justify-center h-auto -mx-14 lg:pl-8">
         <div className="px-3">
             <Image
-              className="object-cover w-60 h-60 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              className="object-cover w-60 h-60 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-100"
               src="/img/Warriors.jpg"
               alt="" width={300}
               height={300}
@@ -51,13 +51,13 @@ export const Landing = () => {
           </div>
           <div className="flex flex-col items-end px-3">
             <Image
-              className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+              className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-60"
               src="/img/WestWorld.jpg"
               alt="" width={300}
               height={300}
             ></Image>
             <Image
-              className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-60"
               src="/img/Strange.jpg"
               alt=""  width={300}
               height={300}
@@ -65,7 +65,7 @@ export const Landing = () => {
           </div>
           <div className="px-3">
             <Image
-              className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-100 sm:w-64 xl:w-100"
               src="/img/Wakanda.jpg"
               alt="" width={300}
               height={300}

@@ -21,15 +21,15 @@ export const Nav = () => {
     <nav aria-label="Header Navigation" class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col flex-end  justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
      
      <ul className="flex flex-col items-center -mr-6 space-y-2 md:ml-auto md:flex-row md:space-y-0">
-       <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/Movies">Movies</Link></li>
-       <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/Cart">Cart</Link></li>
-       <li className="text-gray-600 md:mr-12 hover:text-blue-600"><Link href="/Checkout">Checkout</Link></li>
-       <li className="text-gray-600 md:mr-12 hover:text-blue-600">
+       <li className="text-black-600 md:mr-12 hover:text-blue-600"><Link href="/Movies">Movies</Link></li>
+       <li className="text-black-600 md:mr-12 hover:text-blue-600"><Link href="/Cart">Cart</Link></li>
+       <li className="text-black-600 md:mr-12 hover:text-blue-600"><Link href="/Checkout">Checkout</Link></li>
+       <li className="text-black-600 md:mr-12 hover:text-blue-600">
          <button className="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"><Link href="/Login">Login</Link></button>
        
        </li>
-       <li className="text-gray-600 md:mr-12 hover:text-blue-600">
-         <button className="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"><Link href="/Register">Sign up</Link></button>
+       <li className="text-black-600 md:mr-12 hover:text-blue-600">
+         <button className="rounded-md border-2 border-blue-600 bg-blue-600 px-6 py-1 font-medium text-white transition-colors hover:bg-white hover:text-blue-600"><Link href="/Register">Sign up</Link></button>
        </li>
      </ul>
      
