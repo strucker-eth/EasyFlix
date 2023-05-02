@@ -35,24 +35,23 @@ export const Pricing = () => {
               </svg>
               <span className="relative">Transparent</span>
             </span>{' '}
-            pricing. Pay as you grow.
+            pricing. Pay as you watch.
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          No matter which plan you choose, we guarantee high-quality movies on DVD and USB at affordable prices. 
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
           <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
             <div className="text-center">
-              <div className="text-lg font-semibold">Start</div>
+              <div className="text-lg font-semibold"></div>
               <div className="flex items-center justify-center mt-2">
-                <div className="mr-1 text-5xl font-bold">Free</div>
+                <div className="mr-1 text-5xl font-bold">Starter</div>
               </div>
               <div className="mt-2 space-y-3">
-                <div className="text-gray-700">10 deploys per day</div>
-                <div className="text-gray-700">10 GB of storage</div>
-                <div className="text-gray-700">20 domains</div>
+                <div className="text-gray-700">Access to a limited selection of free movies on DVD and USB.</div>
+                <div className="text-gray-700">No monthly fees or hidden costs.</div>
+                <div className="text-gray-700">Receive our newsletter to stay up-to-date on the latest deals and discounts.</div>
               </div>
             </div>
             <div>
@@ -80,9 +79,10 @@ export const Pricing = () => {
                 <div className="text-gray-700">/ mo</div>
               </div>
               <div className="mt-2 space-y-3">
-                <div className="text-gray-700">200 deploys per day</div>
-                <div className="text-gray-700">80 GB of storage</div>
-                <div className="text-gray-700">Global CDN</div>
+                <div className="text-gray-700">Access to our full collection of movies on DVD and USB.</div>
+                <div className="text-gray-700">Unlimited streaming of select movies.</div>
+                <div className="text-gray-700">Discounts on purchases of multiple movies.</div>
+                <div className="text-gray-700">Priority customer support.</div>
               </div>
             </div>
             <div>
@@ -99,15 +99,17 @@ export const Pricing = () => {
           </div>
           <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
             <div className="text-center">
-              <div className="text-lg font-semibold">Business</div>
+              <div className="text-lg font-semibold">Platinum</div>
               <div className="flex items-center justify-center mt-2">
                 <div className="mr-1 text-5xl font-bold">$78</div>
                 <div className="text-gray-700">/ mo</div>
               </div>
               <div className="mt-2 space-y-3">
-                <div className="text-gray-700">500 GB of storage</div>
-                <div className="text-gray-700">Unlimited domains</div>
-                <div className="text-gray-700">24/7 Support</div>
+                <div className="text-gray-700">Access to our full collection of movies on DVD and USB.</div>
+                <div className="text-gray-700">Unlimited streaming of all movies.</div>
+                <div className="text-gray-700">Exclusive access to new releases before they hit the shelves.</div>
+                <div className="text-gray-700">Free shipping on all orders.</div>
+                <div className="text-gray-700">VIP customer support.</div>
               </div>
             </div>
             <div>
