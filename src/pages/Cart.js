@@ -15,13 +15,13 @@ import React from "react";
 function Home() {
   return (
    
-    <main  class="font-mono font-bold">
+    <main  class="font-mono w-full font-bold">
 
-<div id="Navbar" class="w-full">
+<div id="Navbar" class="mx-auto w-full">
 <Nav />
 </div>
 
-<div id="cart" class="justify-center items-center w-full py-20 my-15 ">
+<div id="cart" class="  py-20 my-2 ">
 <Cart />
 
 </div>
