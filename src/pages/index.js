@@ -35,7 +35,7 @@ function Home() {
 </div>
 
 <div id= "heading" class="py-10">
-  <Heading /> 
+  <PeekHeading /> 
   </div>
 
   <div id="movie-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">

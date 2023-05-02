@@ -34,13 +34,12 @@ export const Steps = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">The</span>
+              <span className="relative">  How to Order</span>
             </span>{' '}
-            quick, brown fox jumps over a lazy dog
+           Movies on DVD and USB
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          It is as easy as 1,2,3
           </p>
         </div>
         <div className="grid gap-8 row-gap-0 lg:grid-cols-3">
@@ -62,8 +61,7 @@ export const Steps = () => {
             </div>
             <h6 className="mb-2 text-2xl font-extrabold">Step 1</h6>
             <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-              Lookout flogging bilge rat main sheet bilge water nipper fluke to go
-              on account heave down clap
+            Browse our vast selection of movies
             </p>
             <Link
               href="Movies"
@@ -115,8 +113,7 @@ export const Steps = () => {
             </div>
             <h6 className="mb-2 text-2xl font-extrabold">Step 2</h6>
             <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-              They urge you to put down your sword and come join the winners. In
-              22 years the only &apos;winners&apos;
+            Add your favorite movies to your cart
             </p>
             <Link
               href="/Movies"
@@ -168,8 +165,7 @@ export const Steps = () => {
             </div>
             <h6 className="mb-2 text-2xl font-extrabold">Step 3</h6>
             <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-              Tell them I hate them. Is the Space Pope reptilian!? Tell her she
-              looks thin. Hello, little man
+            Review your order and checkout
             </p>
             <Link
               href="/Index"
