@@ -22,15 +22,12 @@ export const Checkout = () => {
         </svg>
         <li className="flex items-center space-x-3 text-left sm:space-x-4">
           <Link className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-600 text-xs font-semibold text-white ring ring-gray-600 ring-offset-2" href="#">2</Link>
-          <span className="font-semibold text-gray-900">Shipping</span>
+          <span className="font-semibold text-gray-900">Check Out</span>
         </li>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
         </svg>
-        <li className="flex items-center space-x-3 text-left sm:space-x-4">
-          <Link className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-400 text-xs font-semibold text-white" href="#">3</Link>
-          <span className="font-semibold text-gray-500">Payment</span>
-        </li>
+       
       </ul>
     </div>
   </div>
@@ -44,18 +41,18 @@ export const Checkout = () => {
         <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Galaxy.jpg" alt="" width={300}
               height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
-          <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
-          <span className="float-right text-gray-400">42EU - 8.5US</span>
-          <p className="text-lg font-bold">$138.99</p>
+          <span className="font-semibold">Guardians Of The Galaxy</span>
+          <span className="float-right text-gray-400">DVD</span>
+          <p className="text-lg font-bold">$4.99</p>
         </div>
       </div>
       <div className="flex flex-col rounded-lg bg-white sm:flex-row">
         <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/WestWorld.jpg" alt="" width={300}
               height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
-          <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
-          <span className="float-right text-gray-400">42EU - 8.5US</span>
-          <p className="mt-auto text-lg font-bold">$238.99</p>
+          <span className="font-semibold">West World</span>
+          <span className="float-right text-gray-400">USB</span>
+          <p className="mt-auto text-lg font-bold">$9.99</p>
         </div>
      
      
@@ -64,9 +61,9 @@ export const Checkout = () => {
         <Image className="m-2 h-30 w-28 rounded-md border object-cover object-center" src="/img/Lantern.jpg" alt="" width={300}
               height={300} ></Image>
         <div className="flex w-full flex-col px-4 py-4">
-          <span className="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
-          <span className="float-right text-gray-400">42EU - 8.5US</span>
-          <p className="mt-auto text-lg font-bold">$238.99</p>
+          <span className="font-semibold">Green Lantern</span>
+          <span className="float-right text-gray-400">Streaming</span>
+          <p className="mt-auto text-lg font-bold">$2.99</p>
         </div>
      
      
@@ -155,16 +152,16 @@ export const Checkout = () => {
       <div className="mt-6 border-t border-b py-2">
         <div className="flex items-center justify-between">
           <p className="text-sm font-medium text-gray-900">Subtotal</p>
-          <p className="font-semibold text-gray-900">$399.00</p>
+          <p className="font-semibold text-gray-900">$18.99</p>
         </div>
         <div className="flex items-center justify-between">
           <p className="text-sm font-medium text-gray-900">Shipping</p>
-          <p className="font-semibold text-gray-900">$8.00</p>
+          <p className="font-semibold text-gray-900">$4.00</p>
         </div>
       </div>
       <div className="mt-6 flex items-center justify-between">
         <p className="text-sm font-medium text-gray-900">Total</p>
-        <p className="text-2xl font-semibold text-gray-900">$408.00</p>
+        <p className="text-2xl font-semibold text-gray-900">$22.99</p>
       </div>
     </div>
     <Link href="/">
