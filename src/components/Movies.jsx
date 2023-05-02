@@ -86,15 +86,15 @@ return(
         <div class="mt-3 flex select-none flex-wrap items-center gap-1">
           <label class="">
             <input type="radio" name="type" value="Powder" class="peer sr-only" checked />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">4K</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-white px-6 py-2 font-bold">4K</p>
           </label>
           <label class="">
             <input type="radio" name="type" value="Whole Bean" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">2140P</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-deep-purple-500 px-6 py-2 font-bold">2140P</p>
           </label>
           <label class="">
             <input type="radio" name="type" value="Groud" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">1080P</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-deep-purple-500 px-6 py-2 font-bold">1080P</p>
           </label>
         </div>
 
@@ -102,17 +102,17 @@ return(
         <div class="mt-3 flex select-none flex-wrap items-center gap-1">
           <label class="">
             <input type="radio" name="subscription" value="4 Months" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Streaming</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-deep-purple-500 px-6 py-2 font-bold">Streaming</p>
             <span class="mt-1 block text-center text-xs">$5.99/mo</span>
           </label>
           <label class="">
             <input type="radio" name="subscription" value="8 Months" class="peer sr-only" checked />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Usb</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-deep-purple-500 px-6 py-2 font-bold">Usb</p>
             <span class="mt-1 block text-center text-xs">$19/mo</span>
           </label>
           <label class="">
             <input type="radio" name="subscription" value="12 Months" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">DVD</p>
+            <p class="peer-checked:bg-deep-purple-500 peer-checked:text-white rounded-lg border border-deep-purple-500 px-6 py-2 font-bold">DVD</p>
             <span class="mt-1 block text-center text-xs">$9.99/mo</span>
           </label>
         </div>
@@ -123,7 +123,7 @@ return(
            
           </div>
 
-          <button type="button" class="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-gray-900 bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
+          <button type="button" class="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-deep-purple-900 bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
             <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 mr-3 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
             </svg>
