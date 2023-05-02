@@ -7,7 +7,7 @@ export const Landing = () => {
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-blue-accent-400">
-          <Image src="/img/logo.png" width={30}
+          <Image src="/img/Logo.png" width={30}
               height={50} alt=""></Image>
           </div>
           <div className="max-w-xl mb-6">
