@@ -76,7 +76,7 @@ module.exports = {
           900: '#004d40',
           'accent-100': '#a7ffeb',
           'accent-200': '#64ffda',
-          'accent-400': '#1de9b6',
+          'accent-400': '#9575cd',
           'accent-700': '#00bfa5',
         },
         indigo: {

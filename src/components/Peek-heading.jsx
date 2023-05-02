@@ -2,7 +2,7 @@ export const PeekHeading = () =>{
     return(
 <div className="max-w-xl w-full ml-7 mb-10 mt-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 <div>
-  <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+  <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-teal-accent-400">
   Wide Selection
   </p>
 </div>
@@ -11,7 +11,7 @@ export const PeekHeading = () =>{
     <svg
       viewBox="0 0 52 24"
       fill="currentColor"
-      className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+      className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-white lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
     >
       <defs>
         <pattern

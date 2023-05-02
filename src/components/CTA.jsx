@@ -4,28 +4,24 @@ import Link from "next/link";
 export const CTA = () => {
     return (
       <div className=" ml-5 mx-auto relative sm:w-full w-full">
-        <Image
-          src=""
-          className="absolute inset-0 object-cover width={20}
-          height={20}"
-          alt=""></Image>
       
-        <div className="relative bg-gray-900 bg-opacity-75">
+      
+        <div className="relative bg-opacity-75">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-deep-purple-300 sm:text-4xl sm:leading-none">
                 Never Miss a  <br className="hidden md:block" />
                  
                   <span className="text-teal-accent-400">Movie Release</span>
                 </h2>
-                <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
+                <p className="max-w-xl mb-4 text-base text-black md:text-lg">
                 Stay up-to-date with the latest in the movie industry and be the first to know about our newest additions to our collection. 
                 </p>
                 <Link
                   href="/"
                   aria-label=""
-                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700"
+                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-deep-purple-400 hover:text-teal-accent-700"
                 >
                   Learn more
                   <svg
@@ -94,7 +90,7 @@ export const CTA = () => {
                     <div className="mt-4 mb-2 sm:mb-4">
                       <button
                         type="submit"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                       >
                         Subscribe
                       </button>
