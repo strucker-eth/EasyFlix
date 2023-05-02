@@ -1,8 +1,9 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export const Movie = () => {
 return(
-    <section class="py-12 sm:py-16"> 
+    <section class="py-4 "> 
   <div class="container mx-auto px-4">
     <nav class="flex">
       <ol role="list" class="flex items-center">
@@ -16,7 +17,7 @@ return(
           <div class="flex items-center">
             <span class="mx-2 text-gray-400">/</span>
             <div class="-m-1">
-              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"> Products </a>
+              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"> Movies </a>
             </div>
           </div>
         </li>
@@ -25,7 +26,7 @@ return(
           <div class="flex items-center">
             <span class="mx-2 text-gray-400">/</span>
             <div class="-m-1">
-              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800" aria-current="page"> Coffee </a>
+              <a href="#" class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800" aria-current="page">The Black Panther </a>
             </div>
           </div>
         </li>
@@ -37,20 +38,20 @@ return(
         <div class="lg:flex lg:items-start">
           <div class="lg:order-2 lg:ml-5">
             <div class="max-w-xl overflow-hidden rounded-lg">
-              <img class="h-full w-full max-w-full object-cover" src="/images/JHxMnVrtPMdcNU1s_7g7f.png" alt="" />
+              <Image class="h-full w-full max-w-full object-cover" src="/img/Wakanda.jpg" alt=""  height={500} width={500}></Image>
             </div>
           </div>
 
           <div class="mt-2 w-full lg:order-1 lg:w-32 lg:flex-shrink-0">
             <div class="flex flex-row items-start lg:flex-col">
               <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-gray-900 text-center">
-                <img class="h-full w-full object-cover" src="/images/JHxMnVrtPMdcNU1s_7g7f.png" alt="" />
+                <Image class="h-full w-full object-cover" src="/img/Wakanda.jpg" alt="" height={300} width={300}></Image>
               </button>
               <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
-                <img class="h-full w-full object-cover" src="/images/JHxMnVrtPMdcNU1s_7g7f.png" alt="" />
+                <Image class="h-full w-full object-cover" src="/img/Wakanda.jpg" alt="" height={300} width={300}></Image>
               </button>
               <button type="button" class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2 border-transparent text-center">
-                <img class="h-full w-full object-cover" src="/images/JHxMnVrtPMdcNU1s_7g7f.png" alt="" />
+                <Image class="h-full w-full object-cover" src="/img/Wakanda.jpg" alt="" height={300} width={300}></Image>
               </button>
             </div>
           </div>
@@ -58,7 +59,7 @@ return(
       </div>
 
       <div class="lg:col-span-2 lg:row-span-2 lg:row-end-2">
-        <h1 class="sm: text-2xl font-bold text-gray-900 sm:text-3xl">Afro-Brazillian Coffee</h1>
+        <h1 class="sm: text-2xl font-bold text-gray-900 sm:text-3xl">The Black Panther.</h1>
 
         <div class="mt-5 flex items-center">
           <div class="flex items-center">
@@ -81,44 +82,44 @@ return(
           <p class="ml-2 text-sm font-medium text-gray-500">1,209 Reviews</p>
         </div>
 
-        <h2 class="mt-8 text-base text-gray-900">Coffee Type</h2>
+        <h2 class="mt-8 text-base text-gray-900">Movie Type</h2>
         <div class="mt-3 flex select-none flex-wrap items-center gap-1">
           <label class="">
             <input type="radio" name="type" value="Powder" class="peer sr-only" checked />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Powder</p>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">4K</p>
           </label>
           <label class="">
             <input type="radio" name="type" value="Whole Bean" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Whole Bean</p>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">2140P</p>
           </label>
           <label class="">
             <input type="radio" name="type" value="Groud" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Groud</p>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">1080P</p>
           </label>
         </div>
 
-        <h2 class="mt-8 text-base text-gray-900">Choose subscription</h2>
+        <h2 class="mt-8 text-base text-gray-900">Choose Type Of Media</h2>
         <div class="mt-3 flex select-none flex-wrap items-center gap-1">
           <label class="">
             <input type="radio" name="subscription" value="4 Months" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">4 Months</p>
-            <span class="mt-1 block text-center text-xs">$80/mo</span>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Streaming</p>
+            <span class="mt-1 block text-center text-xs">$5.99/mo</span>
           </label>
           <label class="">
             <input type="radio" name="subscription" value="8 Months" class="peer sr-only" checked />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">8 Months</p>
-            <span class="mt-1 block text-center text-xs">$60/mo</span>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">Usb</p>
+            <span class="mt-1 block text-center text-xs">$19/mo</span>
           </label>
           <label class="">
             <input type="radio" name="subscription" value="12 Months" class="peer sr-only" />
-            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">12 Months</p>
-            <span class="mt-1 block text-center text-xs">$40/mo</span>
+            <p class="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">DVD</p>
+            <span class="mt-1 block text-center text-xs">$9.99/mo</span>
           </label>
         </div>
 
         <div class="mt-10 flex flex-col items-center justify-between space-y-4 border-t border-b py-4 sm:flex-row sm:space-y-0">
           <div class="flex items-end">
-            <h1 class="text-3xl font-bold">$60.50</h1>
+            <h1 class="text-3xl font-bold">$19.50</h1>
             <span class="text-base">/month</span>
           </div>
 
@@ -152,19 +153,37 @@ return(
           <nav class="flex gap-4">
             <a href="#" title="" class="border-b-2 border-gray-900 py-4 text-sm font-medium text-gray-900 hover:border-gray-400 hover:text-gray-800"> Description </a>
 
-            <a href="#" title="" class="inline-flex items-center border-b-2 border-transparent py-4 text-sm font-medium text-gray-600">
-              Reviews
-              <span class="ml-2 block rounded-full bg-gray-500 px-2 py-px text-xs font-bold text-gray-100"> 1,209 </span>
-            </a>
+        
           </nav>
         </div>
 
-        <div class="mt-8 flow-root sm:mt-12">
-          <h1 class="text-3xl font-bold">Delivered To Your Door</h1>
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusantium nesciunt fuga.</p>
-          <h1 class="mt-8 text-3xl font-bold">From the Fine Farms of Brazil</h1>
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio numquam enim facere.</p>
-          <p class="mt-4">Amet consectetur adipisicing elit. Optio numquam enim facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore rerum nostrum eius facere, ad neque.</p>
+        <div class="mt-4 flow-root sm:mt-12">
+          <h1 class="text-3xl font-bold">Black Panther -The Top Marvel Blockbuster</h1>
+          <p class="mt-4">Black Panther is a 2018 superhero film produced by Marvel Studios and directed by Ryan Coogler. It features an ensemble cast including Chadwick Boseman, Michael B. Jordan,  Danai Gurira, and Letitia Wright, among others. </p>
+          <h1 class="mt-8 text-3xl font-bold">Release Date </h1>
+          February 16, 2018
+
+          <h1 class="mt-8 text-3xl font-bold">Cast </h1>
+        <ol class="list-style-type-number">
+          <li>Chadwick Boseman as TChalla / Black Panther</li>
+          <li>Michael B. Jordan as Erik Killmonger</li>
+          
+          <li>Danai Gurira as Okoye</li>
+          <li>Letitia Wright as Shuri</li>
+          <li> Martin Freeman as Everett K. Ross</li>
+          <li> Andy Serkis as Ulysses Klaues</li>
+          <li> Winston Duke as MBaku</li>
+
+        </ol>
+
+          <h1 class="mt-8 text-3xl font-bold">Reviews </h1>
+        <ul>
+          <li>Rotten Tomatoes: 96%</li>
+          <li>Metacritic: 88/100</li>
+          <li> IMDb: 7.3/10</li>
+        </ul>
+
+        
         </div>
       </div>
     </div>
