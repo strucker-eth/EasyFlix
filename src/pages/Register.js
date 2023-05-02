@@ -8,7 +8,7 @@ import { Steps } from "@/components/Steps"
 import { Footer } from "@/components/footer"
 import { CTA } from "@/components/CTA"
 import { Cart } from "@/components/Cart"
-import { Heading } from "@/components/Headings"
+
 import dynamic from "next/dynamic";
 import React from "react";
 import { Register } from "@/components/Sign-up"
