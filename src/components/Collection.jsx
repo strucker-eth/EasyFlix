@@ -9,7 +9,7 @@ export const Collection = () => {
 
         <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
   <Link class="relative  flex h-30 overflow-hidden rounded-xl" href="/Movies">
-    <Image class="object-cover  w-full" src="/img/wakanda.jpg" width={300}
+    <Image class="object-cover  w-full" src="/img/Wakanda.jpg" width={300}
               height={300} alt="product image" />
     <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
   </Link>
