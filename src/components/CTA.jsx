@@ -10,10 +10,10 @@ export const CTA = () => {
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-deep-purple-300 sm:text-4xl sm:leading-none">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-deep-purple-900 sm:text-4xl sm:leading-none">
                 Never Miss a  <br className="hidden md:block" />
                  
-                  <span className="text-teal-accent-400">Movie Release</span>
+                  <span className="text-deep-purple-500">Movie Release</span>
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-black md:text-lg">
                 Stay up-to-date with the latest in the movie industry and be the first to know about our newest additions to our collection. 
@@ -21,7 +21,7 @@ export const CTA = () => {
                 <Link
                   href="/"
                   aria-label=""
-                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-deep-purple-400 hover:text-teal-accent-700"
+                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-deep-purple-800 hover:text-teal-accent-700"
                 >
                   Learn more
                   <svg
