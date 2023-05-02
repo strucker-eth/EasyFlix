@@ -20,7 +20,7 @@ export const Landing = () => {
              
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-            Welcome to our online store for movie DVD enthusiasts! We offer an extensive collection of new releases and classics in a variety of genres. Whether you're a fan of action, romance, horror, or comedy, we've got you covered.
+            Welcome to our online store for movie DVD enthusiasts! We offer an extensive collection of new releases and classics in a variety of genres. Whether you like a action, romance, horror, or comedy,  we have you covered.
             </p>
           </div>
           <div>
