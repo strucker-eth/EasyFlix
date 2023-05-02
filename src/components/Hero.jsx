@@ -12,17 +12,15 @@ export const Landing = () => {
           </div>
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Let us handle
-              <br className="hidden md:block" />
-              your next{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                destination
-              </span>
+            Buy Your  <span className="inline-block text-deep-purple-accent-400">
+              Favorite Movies
+              </span> 
+              <br />
+              On EFlix
+             
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+            Welcome to our online store for movie DVD enthusiasts! We offer an extensive collection of new releases and classics in a variety of genres. Whether you're a fan of action, romance, horror, or comedy, we've got you covered.
             </p>
           </div>
           <div>

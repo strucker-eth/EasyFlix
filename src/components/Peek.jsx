@@ -3,6 +3,8 @@ import Image from "next/image";
 
 export const Peek = () => {
     return (
+      <div>
+        
       <div className="px-3 py-5 sm:max-w-xl w-10/12 gap-1 ">
 
         <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
@@ -48,7 +50,7 @@ export const Peek = () => {
   </div>
 </div>
 
-       
+       </div>
       </div>
     )
   };

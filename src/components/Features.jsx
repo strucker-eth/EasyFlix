@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { featureHeading } from "./Feature-heading";
 
 export const Features = () => {
     return (
-     
-<div class="flex-wrap items-center justify-center sm:w-full gap-8 text-center sm:flex">
-    <div class="w-full px-4 py-4 mt-6 bg-white text-white rounded-lg shadow-lg sm:w-full md:w-1/2 lg:w-1/4  dark:text-white dark:bg-gray-800">
+    
+
+ <div class="flex-wrap items-center justify-center sm:w-full gap-8 text-center sm:flex">
+    
+           <div class="w-full px-4 py-4 mt-6 bg-white text-white rounded-lg shadow-lg sm:w-full md:w-1/2 lg:w-1/4  dark:text-white dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
                 <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -14,10 +17,10 @@ export const Features = () => {
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            Website Design
+        Wide Selection
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Encompassing today’s website design technology to integrated and build solutions relevant to your business.
+        We offer an extensive collection of movies in various formats, including DVDs and USBs. Our collection includes new releases and classics in a variety of genres, such as action, romance, horror, and comedy.
         </p>
     </div>
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg  dark:text-white shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
@@ -30,10 +33,10 @@ export const Features = () => {
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            Branding
+        Easy Navigation
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+        Our website makes it easy to find what you are looking for. With detailed descriptions and filters that help you narrow down your search, you can easily find the movies you want.
         </p>
     </div>
     <div class="w-full px-4 py-4 mt-6 bg-white  dark:text-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
@@ -46,10 +49,10 @@ export const Features = () => {
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            SEO Marketing
+        Competitive Prices
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+        We offer competitive prices on all of our movies, and we frequently run specials and promotions to help you save even more.
         </p>
     </div>
    
@@ -58,5 +61,5 @@ export const Features = () => {
 </div>
 
 
-    );
+    )
   };

@@ -1,4 +1,4 @@
-export const Heading = () =>{
+export const PeekHeading = () =>{
     return(
 <div className="max-w-xl mb-10 mt-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 <div>
@@ -30,13 +30,12 @@ export const Heading = () =>{
         height="24"
       />
     </svg>
-    <span className="relative">The</span>
+    <span className="relative">Experience Your Favorite </span>
   </span>{' '}
-  quick, brown fox jumps over a lazy dog
+  Movies Like Never Before
 </h2>
 <p className="text-base text-gray-700 md:text-lg">
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-  accusantium doloremque rem aperiam, eaque ipsa quae.
+Whether you prefer the classic feel of a DVD or the convenience of a USB, we have you covered.
 </p>
 </div>
 

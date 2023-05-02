@@ -8,9 +8,10 @@ import { Steps } from "@/components/Steps"
 import { Footer } from "@/components/footer"
 import { CTA } from "@/components/CTA"
 import { Cart } from "@/components/Cart"
-import { Heading } from "@/components/Headings"
+import { Heading } from "@/components/Feature-heading"
 import dynamic from "next/dynamic";
 import React from "react";
+import { PeekHeading } from "@/components/Peek-heading"
 
 function Home() {
   return (
@@ -25,9 +26,9 @@ function Home() {
   <Landing />
 </div>
 
-<div id= "heading">
-  <Heading /> 
-  </div>
+<div>
+  <Heading />
+</div>
 
 <div id= "features">
   <Features /> 
